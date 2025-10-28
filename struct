@@ -1,0 +1,14 @@
+ultra-slot-bot/
+├── bot.py                 # Основной файл бота
+├── config.py             # Конфигурация ULTRA-настроек
+├── database.py           # Менеджер базы данных
+├── admin_panel.py        # Админ-панель
+├── keyboards.py          # Клавиатуры интерфейса
+├── utils.py              # Вспомогательные функции
+├── games/               # Директория игр
+│   ├── __init__.py
+│   ├── fruit_slots.py
+│   ├── cosmic_jackpot.py
+│   ├── retro_reels.py
+│   └── egypt_slots.py
+└── users_data.json      # База данных пользователей
